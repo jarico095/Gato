@@ -1,0 +1,51 @@
+/* Gradient Background */
+body {
+  background: content-box radial-gradient(#fe5858, #09a4f1);
+}
+ /*Main content Containers*/
+.pageContainer {
+  width: 940px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: #c4c6e9;
+}
+ /* Image container*/
+.imageContainer {
+  float: right;
+  width: 620px;
+}
+ /*Text container*/
+.textContainer {
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/*image dimensions*/
+img {
+  width: 100%;
+}
+ /*Text styles*/
+h1 {
+  font-family: fangsong;
+  font-style: italic;
+  font-size: 64px;
+  color: #f42c1e;
+  text-shadow: #c78eda 1px 0 10px;
+}
+ 
+p, li {
+  font-family: cursive;
+  font-size: 22px;
+  color: #51473b;
+  text-shadow: #c78eda 1px 0 10px;
+}
+/*Credits container*/
+.pageContainer:after { 
+  content: "Model: Gato the cat";
+  text-shadow: #f45b34 1px 0 10px;
+  color: #c80e0e;
+  display: table;
+  clear: both;
+}
+ 
